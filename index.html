@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aylin Muzaffarli — Updates</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Root colors & font */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1.7;
+  padding: 1rem;
+  margin: 0;
+  position: relative; /* needed for absolute positioning of date */
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto 0 auto;
+  padding: 2rem;
+  background: rgba(245,245,245,0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0;
+  position: relative;
+}
+
+/* Top-right date/name */
+.date-top-right {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 0.9rem;
+  color: #555555;
+  font-weight: 500;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #e0e0e0;
+  padding-left: 0.5rem;
+}
+
+/* Paragraphs and links */
+p {
+  margin: 1rem 0;
+  word-wrap: break-word; /* ensure long text wraps */
+}
+
+a {
+  color: #000000;
+  background: rgba(255, 255, 0, 0.25); /* soft highlight */
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 2px;
+  transition: background 0.25s ease;
+  word-break: break-word; /* prevent links from overflowing */
+}
+
+a:hover {
+  background: rgba(255, 255, 0, 0.4);
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #555555;
+  margin-top: 0.5rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .date-top-right {
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.8rem;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="date-top-right">Aylin Muzaffarli — February 20, 2026</div>
+
+  <h1>Hello everyone,</h1>
+  <p>I’m excited to share some updates!</p>
+
+  <h2>Trajectory — Rocket Mission Calculator</h2>
+  <p>I’ve created a project called <strong>Trajectory</strong>. It allows you to calculate rocket missions using real physics. You can explore <strong>propulsion</strong>, <strong>Δv</strong>, and <strong>acceleration</strong> with intuitive tools and reference materials.</p>
+  <p>Visit Trajectory: <a href="https://www.aylinmuzaffarli.com/Trajectory" target="_blank">https://www.aylinmuzaffarli.com/Trajectory</a></p>
+  <p>This project is a direct result of my curiosity and disciplined self-study in aerospace engineering. It’s not just a tool—it’s part of my learning process, and I hope it can help others explore these concepts too.</p>
+
+  <h2>Email Updates</h2>
+  <p>I’ve also set up an email system so you can receive updates directly in your inbox whenever I publish new projects, discoveries, or insights. This is the best way to follow my work closely.</p>
+  <p>Sign up for updates: <a href="https://preview.mailerlite.io/forms/2128887/179921214406395050/share" target="_blank">https://preview.mailerlite.io/forms/2128887/179921214406395050/share</a></p>
+  <p class="note">Note: Emails may appear in your Promotions or Spam folder—please check there if you don’t see them.</p>
+
+  <h2>Website Updates</h2>
+  <p>My personal website has been updated to showcase all my projects and work. You can explore everything here:</p>
+  <p>Visit my website: <a href="https://www.aylinmuzaffarli.com/#projects" target="_blank">https://www.aylinmuzaffarli.com/#projects</a></p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions, feedback, or just want to discuss a project, reach out to me at:</p>
+  <p><a href="mailto:aylinmuzaffar@gmail.com">aylinmuzaffar@gmail.com</a></p>
+
+  <p>Thank you for following along with my learning journey. I’m excited to share what comes next.</p>
+</div>
+</body>
+</html>
